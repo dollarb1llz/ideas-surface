@@ -1,0 +1,42 @@
+/*BANNERS*/
+
+/*Universal*/
+.banner:before {position: absolute;content: "";top: 0;left: 0;width: 100%;height: 100%;background-color: hsla(0, 0%, 0%, 0.5);}
+
+.banner {display: flex;flex-direction: column;align-items: center;justify-content: center;background-size: cover;background-repeat: no-repeat;background-position: center;min-width: 100%;height: 30rem;position: relative;margin-top: -8rem;}
+
+/*
+1- Change class twice
+2- Change Img url
+*/
+
+/*HORIZON BANNER*/
+.horizon {
+background-image: url('../img/horizon.jpg');
+}
+@media only screen and (max-width: 850px){
+.horizon {max-height: 20rem;position: relative;margin-top: -4rem;}}
+
+/*SNOW LAKE BANNER*/
+.snow-lake {
+background-image: url('../img/snow-lake.jpg');
+}
+@media only screen and (max-width: 850px) {.snow-lake {max-height: 20rem;position: relative;margin-top: -4rem;}}
+
+/*SPACE BANNER*/
+.space {
+background-image: url('../img/space.jpg');
+}
+@media only screen and (max-width: 850px) {.space {max-height: 20rem;position: relative;margin-top: -4rem;}}
+
+/*Sun Rise BANNE*/
+.sun-rise {
+background-image: url('../img/sun-rise.jpg');
+}
+@media only screen and (max-width: 850px) {.space {max-height: 20rem;position: relative;margin-top: -4rem;}}
+
+/*surfer-babe BANNEr*/
+.surfer-babe {
+background-image: url('../img/surfer-babe.jpg');
+}
+@media only screen and (max-width: 850px) {.space {max-height: 20rem;position: relative;margin-top: -4rem;}}
